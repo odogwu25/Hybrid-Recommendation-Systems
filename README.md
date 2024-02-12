@@ -97,9 +97,7 @@ The Random Forest sentiment model showcases a strong performance with an accurac
 
 ![](https://github.com/odogwu25/Hybrid-Recommendation-Systems/blob/main/Images/Hybrid%202.png)
 
-- **Random Forest (Sentiment model) & RNN (Ratings model):**
-
-According to the data, the hybrid model works best when sentiment weights are between 0.0 and 0.6. At these sentiment weight levels, the model maintains constant validation accuracy, precision, and recall metrics, with a modest peak in performance occurring at 0.3 sentiment weight levels. The F1 score remains constant throughout this range, demonstrating a balanced model. A noteworthy improvement in the model's classification performance can be seen in the ROC, which peaks at a sentiment weight of 0.5. Therefore, it is advised to set the sentiment weight at 0.6 or lower to get the best results, as this range shows the greatest ROC values and the most stable results of other metrics.
+- **Random Forest (Sentiment model) & RNN (Rating model):** According to the data, the hybrid model works best when sentiment weights are between 0.0 and 0.6. At these sentiment weight levels, the model maintains constant validation accuracy, precision, and recall metrics, with a modest peak in performance occurring at 0.3 sentiment weight levels. The F1 score remains constant throughout this range, demonstrating a balanced model. A noteworthy improvement in the model's classification performance can be seen in the ROC, which peaks at a sentiment weight of 0.5. Therefore, it is advised to set the sentiment weight at 0.6 or lower to get the best results, as this range shows the greatest ROC values and the most stable results of other metrics.
 
 ![](https://github.com/odogwu25/Hybrid-Recommendation-Systems/blob/main/Images/hybrid%203.png)
 
@@ -107,4 +105,14 @@ According to the data, the hybrid model works best when sentiment weights are be
 
 ![](https://github.com/odogwu25/Hybrid-Recommendation-Systems/blob/main/Images/hybrid%204.png)
 
+
+### Conclusion
+
+This project analyzed 459,367 reviews to gauge customer opinions on certain products or services, observing a generally positive trend in both star ratings and sentiment scores. A notable strong correlation was found between the sentiment scores and star ratings, suggesting consistency in the evaluations. Keyword analysis highlighted the elements influencing customer satisfaction and dissatisfaction. An evaluation of different models showed that traditional models, especially the Logistic Regression model, performed well, while hybrid models excelled at specific sentiment weight thresholds, indicating the importance of sentiment weight in predicting reviews and ratings effectively.
+
+Considering the individual strengths of the models and the nuanced performance improvements in the hybrid configurations, selecting the best model ultimately hinges on the specific requirements of the task at hand. The Logistic Regression model emerges as a formidable choice for star rating predictions, given its high ROC score and balanced performance across other metrics. When a more complex, hybrid approach is sought, especially when integrating sentiment analysis into the fold, the RNN (Sentiment model) & Logistic Regression (Rating model) offer a compelling case for selection, providing a rich, balanced analytical capability that harnesses the strengths of both logistic regression and recurrent neural networks.
+
+![](https://github.com/odogwu25/Hybrid-Recommendation-Systems/blob/main/Images/bar%20chart%20final.png)
+
+![](https://github.com/odogwu25/Hybrid-Recommendation-Systems/blob/main/Images/ALL%20ROC.png)
 
