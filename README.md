@@ -1,5 +1,7 @@
 # COMPARATIVE STUDY OF Hybrid RECOMMENDATION SYSTEMS
 
+### Introduction 
+
 The rapidly developing e-commerce sector has increased the demand for effective recommendation systems to provide clients with personalized and accurate product recommendations. These systems are critical in improving the customer experience, increasing sales, and cultivating customer loyalty. While traditional recommendation systems depend solely on star ratings for evaluating customer satisfaction, recent research has demonstrated the value of using sentiment analysis to capture the nuances and emotions represented in textual evaluations. This dataset, sourced from the Amazon website, comprises user reviews, star ratings, and anonymized product information. It is the foundational resource for our comparative analysis of various hybrid recommendation systems.
 
 This project aims to contribute to the area by comparing hybrid recommendation systems for e-commerce, emphasising integrating sentiment analysis and star ratings using the weighted hybrid approach. Other objectives of this project include:
